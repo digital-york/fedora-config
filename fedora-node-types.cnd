@@ -1,19 +1,20 @@
 /*
- * Local Namespaces
+ * ADDED Local Namespaces
  */
-<york = 'http://dlib.ac.uk'>
-<yorkcp = 'http://dlibcausepapers.york.ac.uk'>
+<york = 'http://dlib.ac.uk/'>
+<yorkcp = 'http://dlibcausepapers.york.ac.uk/'>
+<yorkabp = 'http://dlibabp.york.ac.uk/'>
 <reg = 'http://dlib.york.ac.uk/ontologies/borthwick-registers#'>
 <dlib = 'http://dlib.york.ac.uk/ontologies/generic#'>
 
 /*
- * Additional Namespaces
+ * ADDED Additional Namespaces
  */
 <sorg = 'http://schema.org/'>
 <hub = 'http://data.archiveshub.ac.uk/def/'>
 <skos = 'http://www.w3.org/2004/02/skos/core#'>
-<dcterms = 'http://purl.org/dc/terms/'>
 <model = 'info:fedora/fedora-system:def/model#'>
+<dcterms = 'http://purl.org/dc/terms/'>
 
 /*
  * JCR node types for use with Fedora
