@@ -15,6 +15,12 @@
 <skos = 'http://www.w3.org/2004/02/skos/core#'>
 <model = 'info:fedora/fedora-system:def/model#'>
 <dcterms = 'http://purl.org/dc/terms/'>
+<pcdm = 'http://pcdm.org/models#'>
+<oa = 'http://www.w3.org/ns/oa#'>
+<sc = 'http://www.shared-canvas.org/ns/'>
+<owl = 'http://www.w3.org/2002/07/owl#'>
+<ore = 'http://www.openarchives.org/ore/terms/'>
+<fcrepo = 'info:fedora/fedora-system:def/relations-external#'>
 
 /*
  * JCR node types for use with Fedora
@@ -93,5 +99,4 @@
 [fedora:Pairtree] mixin
 
 [fedora:Tombstone] > nt:hierarchyNode
-
 
