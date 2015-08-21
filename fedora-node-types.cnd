@@ -21,6 +21,11 @@
 <owl = 'http://www.w3.org/2002/07/owl#'>
 <ore = 'http://www.openarchives.org/ore/terms/'>
 <fcrepo = 'info:fedora/fedora-system:def/relations-external#'>
+<mads = 'http://www.loc.gov/mads/rdf/v1#'>
+<vra = 'http://purl.org/vra/'>
+<iana = 'http://www.iana.org/assignments/relation/'>
+<gn = 'http://www.geonames.org/ontology'>
+<gvp = 'http://vocab.getty.edu/ontology#'>
 
 /*
  * JCR node types for use with Fedora
