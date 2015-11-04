@@ -56,6 +56,7 @@
 <rdfs = 'http://www.w3.org/2000/01/rdf-schema#'>
 <premis = 'http://www.loc.gov/premis/rdf/v1#'>
 <ldp = 'http://www.w3.org/ns/ldp#'>
+<ebucore = 'http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#'>
 
 /*
  * A fedora namespace for properties a user may set on a node that may
@@ -96,11 +97,12 @@
  * Some content that can have a checksum
  */
 [fedora:Binary] > fedora:Resource mixin
-  - premis:hasOriginalName (STRING)
+  - ebucore:filename (STRING)
+  - ebucore:hasMimeType (STRING)
   - premis:hasSize (LONG) COPY
-  - fedora:digest (URI) COPY
+  - premis:hasMessageDigest (URI) COPY
 
-[fedora:Blanknode] > mix:referenceable mixin
+[fedora:Skolem] > mix:referenceable mixin
 
 [fedora:Pairtree] mixin
 
