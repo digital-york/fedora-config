@@ -15,13 +15,13 @@
             "minimumBinarySizeInBytes" : 4096
         }
     },
-    "security" : {       
+    "security" : {
         "anonymous" : {
             "roles" : ["readonly","readwrite","admin"],
             "useOnFailedLogin" : false
         },
         "providers" : [
-            { "classname" : "org.fcrepo.auth.common.ServletContainerAuthenticationProvider" }
+            { "classname" : "org.fcrepo.auth.common.BypassSecurityServletAuthenticationProvider" }
         ]
     },
     "node-types" : ["${fcrepo.home}/fedora-node-types/fedora-node-types.cnd"]
