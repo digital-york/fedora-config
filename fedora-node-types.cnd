@@ -8,6 +8,11 @@
 <dlib = 'http://dlib.york.ac.uk/ontologies/generic#'>
 
 /*
+* Added a namespace for oasis
+*/
+<oasis = 'http://dlib.york.ac.uk/ontologies/oasis#'>
+
+/*
  * ADDED Additional Namespaces
  */
 <sorg = 'http://schema.org/'>
